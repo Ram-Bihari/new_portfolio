@@ -283,6 +283,7 @@ textarea {
 }
 
 .submit {
+  height: 8vh;
   width: 50%;
   background: orange;
   border-radius: 5px;
