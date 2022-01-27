@@ -45,6 +45,12 @@ a {
 
 .navlinks li a {
   transition: all 0.7s ease 0s;
+  color: white;
+}
+
+.navlinks li a:hover {
+  transition: all 0.7s ease 0s;
+  color: orange;
 }
 
 #navbar {
@@ -238,7 +244,7 @@ header {
 }
 
 #instagram:hover {
-  color: palevioletred;
+  color: plum;
 }
 
 #github {
