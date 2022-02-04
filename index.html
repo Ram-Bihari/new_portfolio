@@ -26,10 +26,12 @@
       </ul>
     </header>
     <section id="main">
+      
       <div id="wrapper">
+        <div id="particles-js"></div>
         <div class="typing">
           <h1 style="padding-top: 150px; font-size: 30px">
-            Hello I am <span style="color: orange">Siddharth Gautam</span>.
+            Hello I am <span style="color:orange">Siddharth Gautam</span>.
           </h1>
           <h2 id="infotext" style="padding-top: 20px">
             <span>I am a </span
@@ -153,7 +155,7 @@
     <hr style="width: 5%; margin-top: 65px; margin-bottom: 60px;"/>
     <section id="contact">
       <div>
-        <h1 id="projects-h1">Contact<span style="color: orange"> Me</span></h1>
+        <h1 id="projects-h1">Contact<span style="color: darkgoldenrod"> Me</span></h1>
       </div>  
       <form name="contact" method="POST" data-netlify='true'>      
         <input name="name" type="text" class="inputdeeznuts" placeholder="Name" />   
@@ -167,5 +169,11 @@
 
       <footer><h2>&copy; Siddharth Gautam</h2></footer>
 
+      <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+      <script>
+        particlesJS.load("particles-js", "particles.json", function () {
+          console.log("yeah");
+        });
+      </script>
   </body>
 </html>
