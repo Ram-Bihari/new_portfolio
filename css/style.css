@@ -316,7 +316,8 @@ footer {
 
 #particles-js {
   padding-top: 100px;
-  position: absolute;
+  position: fixed;
+  z-index: -1;
   width: 100%;
   height: 120vh;
 }
