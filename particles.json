@@ -1,0 +1,35 @@
+{
+    "particles": {
+        "number": {
+            "value": 130 
+            
+        },
+        "color": {
+            "value": "ffa500"
+        },
+        "size": {
+            "value": 2,
+            "anim": {
+                "enable": true,
+                "speed": 10
+              }
+        }
+    },
+    "interactivity": {
+        "events" : {
+            "onhover": {
+                "enable": true,
+                "mode": "repulse"
+            },
+            "onclick": {
+                "enable": false
+            }
+        },
+        "modes": {
+            "repulse": {
+                "distance": 50
+            }
+        }
+    }
+}
+
