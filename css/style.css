@@ -181,8 +181,14 @@ header {
   font-size: 30px;
 }
 
+#cards {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
 .card {
-  margin-top: 40px;
+  margin: 40px;
   width: 25%;
   border-radius: 20px;
   color: white;
@@ -193,7 +199,6 @@ header {
   padding-bottom: 5px;
   display: inline-block;
   flex: auto;
-  margin-left: 90px;
 }
 
 .card h2 {
@@ -214,7 +219,7 @@ header {
 }
 
 .card-pog {
-  margin-top: 40px;
+  margin: 40px;
   width: 25%;
   border-radius: 20px;
   color: white;
@@ -225,7 +230,6 @@ header {
   padding-bottom: 5px;
   display: inline-block;
   flex: auto;
-  margin-left: 90px;
 }
 
 .card-pog h2 {
