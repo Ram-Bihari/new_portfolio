@@ -129,13 +129,12 @@ header {
 #about {
   height: 50vh;
   width: 100%;
-  background-color: black;
+  /* background-color: black; */
 }
 
 #projects {
   height: 38vh;
   width: 100%;
-  background-color: black;
 }
 
 #about h1 {
