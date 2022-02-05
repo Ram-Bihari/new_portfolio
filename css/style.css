@@ -69,8 +69,9 @@ header {
 }
 
 .typing {
+  text-align: center;
   padding-top: 10px;
-  width: 43ch;
+  width: 100%;
   animation: typing 2s steps(34), blink 0.5s step-end infinite alternate;
   white-space: nowrap;
   overflow: hidden;
@@ -302,6 +303,7 @@ form {
 
 .submit:hover {
   background-color: darkorange;
+  transition: all 0.3s ease-in 0s;
 }
 
 footer {
