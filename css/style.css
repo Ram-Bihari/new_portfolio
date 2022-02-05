@@ -6,6 +6,10 @@ body {
   color: white;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 #main {
   height: 100vh;
   width: 100%;
