@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 body {
-  background: black;
+  background: #121212;
   font-family: "Poppins", sans-serif;
   color: white;
 }
@@ -55,7 +55,7 @@ a {
 .navlinks li a:hover {
   transition: all 0.7s ease 0s;
   color: orange;
-  letter-spacing: 2px;
+  letter-spacing: 3px;
 }
 
 #navbar {
@@ -202,7 +202,7 @@ header {
 }
 
 .card {
-  margin: 20px;
+  margin: 26px;
   width: 25%;
   border-radius: 20px;
   color: white;
@@ -220,8 +220,8 @@ header {
 }
 
 .card:hover {
-  background-color: white;
-  color: black;
+  background-color: #313131;
+  color: white;
   transition: all 0.6s ease 0s;
 }
 
