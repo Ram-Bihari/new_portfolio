@@ -264,7 +264,7 @@ header {
 }
 
 .card-pog:hover {
-  background-color: white;
+  background-color: #313131;
   color: black;
   transition: all 0.6s ease 0s;
 }
