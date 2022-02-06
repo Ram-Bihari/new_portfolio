@@ -202,15 +202,14 @@ header {
 }
 
 .card {
-  margin: 26px;
+  margin: 20px;
   width: 25%;
   border-radius: 20px;
   color: white;
   font-weight: 900;
   text-align: center;
   align-items: center;
-  padding-top: 2px;
-  padding-bottom: 5px;
+  padding: 20px;
   display: inline-block;
   flex: auto;
 }
@@ -247,8 +246,7 @@ header {
   font-weight: 900;
   text-align: center;
   align-items: center;
-  padding-top: 2px;
-  padding-bottom: 5px;
+  padding: 20px;
   display: inline-block;
   flex: auto;
 }
@@ -374,6 +372,16 @@ footer {
   }
 }
 
+@media (max-width: 1015px) {
+  #contact {
+    padding-top: 275px;
+  }
+
+  .card-pog {
+    font-size: smaller;
+  }
+}
+
 @media (max-width: 1004px) {
   #skills-h1 {
     padding-top: 30px;
@@ -396,7 +404,7 @@ footer {
   }
 
   #projects {
-    padding-bottom: 60px;
+    padding-bottom: 140px;
   }
 
   header {
@@ -465,7 +473,7 @@ footer {
 }
 
 @media (max-width: 381px) {
-  #about p{
+  #about p {
     font-size: 15px;
   }
 }
