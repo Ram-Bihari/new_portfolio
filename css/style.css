@@ -55,6 +55,7 @@ a {
 .navlinks li a:hover {
   transition: all 0.7s ease 0s;
   color: orange;
+  letter-spacing: 3px;
 }
 
 #navbar {
