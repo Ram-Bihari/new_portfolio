@@ -313,6 +313,7 @@ header {
 
 textarea {
   height: 120px;
+  resize: none;
 }
 
 .submit {
