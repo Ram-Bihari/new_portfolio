@@ -298,17 +298,23 @@ header {
 
 .inputdeeznuts {
   color: white;
-  font-weight: 500;
+  font-weight: 600;
   font-size: 18px;
   border-radius: 5px;
   line-height: 22px;
   background-color: transparent;
-  border: 2px solid darkorange;
+  border: 2px solid orange;
   padding: 18px;
   margin-bottom: 10px;
   width: 50%;
   box-sizing: border-box;
   align-items: center;
+  outline: none;
+}
+
+.inputdeeznuts:focus {
+  border-color: darkorange;
+  transition: all 0.3s ease-in-out ;
 }
 
 textarea {
