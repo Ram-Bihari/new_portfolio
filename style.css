@@ -481,3 +481,8 @@ footer {
     padding-top: 320px;
   }
 }
+
+html::selection {
+  background-color: orange;
+  color: white;
+}
