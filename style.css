@@ -4,6 +4,8 @@ body {
   background: #121212;
   font-family: "Poppins", sans-serif;
   color: white;
+  padding: 0;
+  margin: 0;
 }
 
 html {
@@ -50,7 +52,6 @@ a {
 .navlinks li a:hover {
   transition: all 0.7s ease 0s;
   color: orange;
-  letter-spacing: 3px;
 }
 
 #navbar {
@@ -130,7 +131,7 @@ header {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: orange;
+  background: darkorange;
   border-radius: 10px;
   width: 8px;
   height: 2px;
@@ -319,7 +320,7 @@ textarea {
   cursor: pointer;
   color: white;
   font-size: 24px;
-  padding: 10px;
+  padding-top: 10px;
   font-weight: 700;
   text-align: center;
 }
@@ -338,12 +339,16 @@ form {
 }
 
 footer {
-  background-color: darkorange;
+  background-color: orange;
   height: 10vh;
   text-align: center;
   padding-top: 1px;
   color: white;
   font-weight: 900;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
 }
 
 #particles-js {
@@ -446,7 +451,7 @@ footer {
     font-size: 18px;
   }
 
-  .button {
+  .button2 {
     display: inline-block;
     justify-content: center;
     text-align: center;
@@ -463,22 +468,6 @@ footer {
 
 @media (max-width: 424px) {
   #contact {
-    margin-top: 60px;
-  }
-}
-
-@media (max-width: 381px) {
-  #about p {
-    font-size: 15px;
-  }
-
-  #contact {
-    margin-top: 60px;
-  }
-}
-
-@media (max-width: 375px) {
-  #contact {
-    margin-top: 100px;
+    padding-top: 320px;
   }
 }
