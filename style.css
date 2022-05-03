@@ -369,6 +369,10 @@ footer {
   height: 120vh;
 }
 
+ .button2{
+  margin: 20px;
+}
+
 @media (max-width: 1017px) {
   .card-pog {
     font-size: 16px;
@@ -473,7 +477,6 @@ footer {
     justify-content: center;
     align-items: center;
     text-align: center;
-    padding: 10px;
   }
 }
 
